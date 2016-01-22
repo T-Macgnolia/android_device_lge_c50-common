@@ -20,6 +20,7 @@ LOCAL_PATH := device/lge/c50-common
 
 # Kernel
 BOARD_KERNEL_CMDLINE += vmalloc=504m
+TARGET_KERNEL_SOURCE := kernel/lge/c50
 
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
